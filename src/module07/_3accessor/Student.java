@@ -19,10 +19,20 @@ public class Student
       return id + ": " + name + ", " + email;
     }
     
+    public int getId() {
+      return id;
+    }
+
+    public void setId(int newId) {
+      id = newId;
+    }
+
     // main method for testing
     public static void main(String[] args)
     {
        Student s1 = new Student("Skyler", "skyler@sky.com", 123456);
-       System.out.println(s1);
+       Student s2 = new Student("Alina", "a.krawczynski@wustl.edu",525773);
+       System.out.println(s1.getId());
+       System.out.println(s2);
     }
  }

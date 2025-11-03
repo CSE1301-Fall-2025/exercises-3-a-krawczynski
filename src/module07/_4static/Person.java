@@ -11,7 +11,7 @@ public class Person
    public static int personCounter = 0;
    
    // static method to print out counter
-   public static void printPersonCounter() {
+   public static void printPersonCounter() { // if we're using objects, methods are gonna be nonstatic
         System.out.println("Person counter: " + personCounter);
    }
    

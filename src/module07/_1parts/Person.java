@@ -1,10 +1,10 @@
 package module07._1parts;
 
-public class Person 
+public class Person // creation of object/template of object, should be capitalized
 {
      // instance variables 
-     private String name;
-     private String email;
+     private String name; // important that it's private!!!
+     private String email; // instance variables and methods are what we expect to find in our classes
      private String phoneNumber;
      
      // constructor: construct a Person copying in the data into the instance variables
@@ -32,5 +32,7 @@ public class Person
         p1.print();
         Person p2 = new Person("Jean", "jean@gmail.com", "404 899-9955");
         p2.print();
+        Person p3 = new Person("Alina", "peepee@gmail.com", "314 600-6039");
+        p3.print();
      }
   }
