@@ -30,4 +30,10 @@ public class Cat { // (nouns)
         this.voice = voice;
         age = 0;
     }
+
+    public static void main(String[] args) {
+        Cat mau = new Cat("Mau", "mrow");
+        System.out.println(mau);
+    } 
+
 }
