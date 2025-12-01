@@ -1,6 +1,7 @@
 package module09._01lists;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class UsingLists {
 
@@ -28,6 +29,18 @@ public class UsingLists {
 
 		//your code here!!
 		
+		LinkedList<String> slayWords1 = new LinkedList<String>(); 
+
+		String[] slayWords = new String[3];
 		
+		slayWords[0] = "serving cunt";
+		slayWords[1] = "deadpan";
+		slayWords[2] = "what the fuck";
+
+		slayWords1.add("hot cheeto dust");
+		System.out.println(slayWords1.get(0));
+		System.out.println(slayWords1.size());
+		slayWords1.add("sticky fingers");
+
 	}
 }
